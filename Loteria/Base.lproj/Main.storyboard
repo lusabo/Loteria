@@ -60,10 +60,10 @@
                                     <action selector="generateGame" destination="BYZ-38-t0r" eventType="touchUpInside" id="0ur-uO-WnS"/>
                                 </connections>
                             </button>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="3zY-pu-r9x">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="3zY-pu-r9x">
                                 <rect key="frame" x="40.5" y="235.5" width="294" height="196"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="rTQ-cv-Wkg">
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="rTQ-cv-Wkg">
                                         <rect key="frame" x="0.0" y="0.0" width="294" height="90"/>
                                         <subviews>
                                             <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mNG-xy-8Ue">
@@ -140,12 +140,12 @@
                     <connections>
                         <outlet property="lbGameType" destination="FKd-me-ZO6" id="EIM-aa-AzH"/>
                         <outlet property="scGameType" destination="6FP-4E-pgp" id="idv-zn-ogF"/>
-                        <outletCollection property="balls" destination="mNG-xy-8Ue" collectionClass="NSMutableArray" id="bh7-QD-HZ3"/>
-                        <outletCollection property="balls" destination="P39-VA-QGK" collectionClass="NSMutableArray" id="l4a-i9-Y19"/>
-                        <outletCollection property="balls" destination="XR0-rw-XZX" collectionClass="NSMutableArray" id="ozN-sn-FmH"/>
-                        <outletCollection property="balls" destination="xD4-K9-2n9" collectionClass="NSMutableArray" id="1dG-sJ-eIe"/>
-                        <outletCollection property="balls" destination="fnN-Hg-Adc" collectionClass="NSMutableArray" id="b3x-Qi-xEC"/>
-                        <outletCollection property="balls" destination="vGL-Mu-3g3" collectionClass="NSMutableArray" id="Dy2-GE-JU5"/>
+                        <outletCollection property="balls" destination="mNG-xy-8Ue" collectionClass="NSMutableArray" id="Ngi-xj-v0F"/>
+                        <outletCollection property="balls" destination="P39-VA-QGK" collectionClass="NSMutableArray" id="gLr-ZK-oYE"/>
+                        <outletCollection property="balls" destination="XR0-rw-XZX" collectionClass="NSMutableArray" id="4Uz-hA-2e0"/>
+                        <outletCollection property="balls" destination="xD4-K9-2n9" collectionClass="NSMutableArray" id="aCO-qe-cfB"/>
+                        <outletCollection property="balls" destination="fnN-Hg-Adc" collectionClass="NSMutableArray" id="pBa-uk-Lwy"/>
+                        <outletCollection property="balls" destination="vGL-Mu-3g3" collectionClass="NSMutableArray" id="pTU-nK-Z9T"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
